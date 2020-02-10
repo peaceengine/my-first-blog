@@ -82,12 +82,10 @@ DATABASES = {
         'NAME': 'djangogirls',
         'USER': 'ant',
         'PASSWORD': 'Volgograd',
-        'HOST': 'localhost',
-        'PORT': '',
-    }
-}    'default': {
-        'ENGINE': 'django.db.backends.sqlite3',
-        'NAME': os.path.join(BASE_DIR, 'db.sqlite3'),
+        'HOST': 'peaceengine-1481.postgres.pythonanywhere-services.com',
+        'PORT': '11481',
+#        'HOST': 'localhost',
+#        'PORT': '',
     }
 }
 
